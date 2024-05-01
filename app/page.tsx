@@ -1,14 +1,7 @@
-const name = "";
-
-console.log(name);
+import Header from "./_components/header";
 
 const Home = () => {
-  return (
-    <div className="mx-6 bg-red-500 px-2">
-      <h1>Hello tailwind</h1>
-      <p>Hello World!</p>
-    </div>
-  );
+  return <Header />;
 };
 
 export default Home;
